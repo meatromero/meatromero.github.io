@@ -34,11 +34,22 @@ a:hover {
 
 .nav {
   order: 1;
+  display: flex;
+  flex-direction: row;
   align-self: center;
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
+.nav img {
+  justify-self: center;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+.nav a {
+  justify-self: center;
+}
 body {
   color: #fffdf0;
   font-family: "VT323", "Courier New";
